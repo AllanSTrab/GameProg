@@ -11,7 +11,7 @@ public class Exercício05 : MonoBehaviour
 Crie um código que mostre o resto da divisão de 17 por 4.
 Use o operador %.*/
         print("a divisão de a/b é " + (a/b));
-        print("e seu resto é " + (a + b % 2));
+        print("e seu resto é " + (a % b));
     }
 
     // Update is called once per frame
