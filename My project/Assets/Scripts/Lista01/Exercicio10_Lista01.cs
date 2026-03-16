@@ -3,7 +3,7 @@ using System.Data.SqlTypes;
 using System.Drawing;
 using UnityEngine;
 
-public class Exercicio10 : MonoBehaviour
+public class Exercicio10_Lista01 : MonoBehaviour
 {
     [SerializeField] float salario = 1000f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

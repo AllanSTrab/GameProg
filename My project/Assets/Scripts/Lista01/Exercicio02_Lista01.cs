@@ -2,7 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEngine.UIElements.UxmlAttributeDescription;
 
-public class Exercicio2 : MonoBehaviour
+public class Exercicio02_Lista01 : MonoBehaviour
 {
     int vida = 100;
     int dano = 25;

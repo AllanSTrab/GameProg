@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Exercicio06 : MonoBehaviour
+public class Exercicio06_Lista01 : MonoBehaviour
 {
     public int Idade;
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Exercício05 : MonoBehaviour
+public class Exercício05_Lista01 : MonoBehaviour
 {
     int a = 17;
     int b = 4;

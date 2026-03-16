@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Exercicio11 : MonoBehaviour
+public class Exercicio11_Lista01 : MonoBehaviour
 {
     public float velocidadeInicial;
     public float aceleracao;
@@ -16,7 +16,8 @@ Crie:
 • public float tempo;
 Calcule a velocidade final usando:
 velocidadeFinal = velocidadeInicial + aceleracao * tempo;*/
-        print("Sua velocidade Final é de: " + (velocidadeInicial + aceleracao * tempo));
+        float velocidadeFinal = velocidadeInicial + aceleracao * tempo;
+        print("Sua velocidade Final é de: " + velocidadeFinal);
     }
 
     // Update is called once per frame

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Exercicio03 : MonoBehaviour
+public class Exercicio03_Lista01 : MonoBehaviour
 {
     int Pontos = 10;
     int Multiplicador = 3;
@@ -13,7 +13,7 @@ Crie uma variável multiplicador com valor 3.
 Calcule a pontuação final e mostre no Console.
 Use o operador */
 
-        print("você triplicou seus pontos."+" De "+ Pontos + " Pontos agora está com: " + (Pontos *  Multiplicador));
+        print("você triplicou seus pontos." + " De " + Pontos + " Pontos agora está com: " + (Pontos *  Multiplicador));
     }
 
     // Update is called once per frame

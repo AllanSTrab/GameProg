@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Exercicio12 : MonoBehaviour
+public class Exercicio12_Lista01 : MonoBehaviour
 {
     public int pontosBase;
     public int inimigosDerrotados;
@@ -16,7 +16,8 @@ Crie:
 • public int bonus;
 Calcule:
 pontuacaoFinal = (pontosBase * inimigosDerrotados) + bonus;*/
-        print("Sua pontuação final é de: " + ((pontosBase * inimigosDerrotados) + bonus) + " Pontos");
+        int pontuacaoFinal = (pontosBase * inimigosDerrotados) + bonus;
+        print("Sua pontuação final é de: " + pontuacaoFinal + " Pontos");
     }
 
     // Update is called once per frame

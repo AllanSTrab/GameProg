@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class exercicio07 : MonoBehaviour
+public class exercicio07_Lista01 : MonoBehaviour
 {
     public int A;
     public int B;
