@@ -25,14 +25,11 @@ public class Teste: MonoBehaviour
     [SerializeField]int x = 200;
     [SerializeField]int y = 50;
 
-    [SerializeField] int vida = 100;
-    [SerializeField] int dano;
-    [SerializeField] bool caiu;
     void Start()
     {   /*As chaves é onde mostra onde começa e finaliza a função
         //void start é o que acontece no primeiro frame do código(Depois disso não será mais executado depois)
         O start existe em todo objeto da cena*/
-        print("exemplos ops Matematico");
+        print("exemplos ops Aritmeticos");
         int c = 0;
         c = a + b;
         print("Soma de a + b: " + c);
@@ -89,7 +86,7 @@ public class Teste: MonoBehaviour
 
         if (a == c) { }
         else if (a == b) { }
-        else if (b == c) { }
+        else { }
         
     }
 
