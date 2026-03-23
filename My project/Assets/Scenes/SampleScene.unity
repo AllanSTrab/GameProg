@@ -394,6 +394,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Exercicio10_05
   vidaJogador: 0
   vidaInimigo: 0
+--- !u!114 &1502991421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502991405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb4334fb30185a40bdfec8d84e9a547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CondicionalEncadeado
 --- !u!1001 &1600230579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -489,6 +501,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3939843468789497634, guid: cd2240277eca7cd4a8b7b76aa072c77e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1502991420}
+    - targetCorrespondingSourceObject: {fileID: 3939843468789497634, guid: cd2240277eca7cd4a8b7b76aa072c77e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1502991421}
   m_SourcePrefab: {fileID: 100100000, guid: cd2240277eca7cd4a8b7b76aa072c77e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

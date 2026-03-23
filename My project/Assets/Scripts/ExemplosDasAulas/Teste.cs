@@ -1,7 +1,5 @@
 ﻿using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Interactions;
 using UnityEngine.Video;
 
 public class Teste: MonoBehaviour
