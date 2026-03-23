@@ -11,6 +11,7 @@ Crie um script que receba um número inteiro e informe:
 • Se é menor que 0 → "Número negativo"
 • Caso contrário → "Zero"
          */
+         
         if (numero == 0)
         {
             print("Esse numero é 0");
@@ -23,6 +24,25 @@ Crie um script que receba um número inteiro e informe:
         {
             print("Esse numero é positivo");
         }
+
+        //Ex: a porta esta fechada se sim pergunta se tem a chave, senão n precisa.
+        /*
+        if (numero == 0)
+        {
+            print(numero + " é zero");
+        }
+        else
+        {
+            if (numero > 0)
+            {
+                print(numero + " é positivo");
+            }
+            else
+            {
+                print(numero + " é negativo");
+            }
+        }
+        */
     }
 
 }

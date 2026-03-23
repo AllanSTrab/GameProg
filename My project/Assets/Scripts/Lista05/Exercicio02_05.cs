@@ -2,9 +2,7 @@ using UnityEngine;
 
 public class Exercicio02_05 : MonoBehaviour
 {
-    [SerializeField] float a;
-    [SerializeField] float b;
-    [SerializeField] float c;
+    [SerializeField] float a, b, c;
     void Start()
     {
         /*2. Comparação de Três Números
