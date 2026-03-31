@@ -65,7 +65,7 @@ public class desafioJogSim02 : MonoBehaviour
                         dado2 = Random.Range(1, 7);
                         print("Você rolou: " + dado1 + " E " + dado2);
 
-                        if (dado1 % 2 == 0) // ATAQUE
+                        if (dado1 % 2 == 0)
                         {
                             dadoCpu2 = Random.Range(1, 7);
                             bloqCpu = defCpu + dadoCpu2;
@@ -77,7 +77,7 @@ public class desafioJogSim02 : MonoBehaviour
 
                             print("Voce atacou causando " + dano + " de dano!");
                         }
-                        else // DEFESA
+                        else
                         {
                             bloq = def + dado2;
                             print("Jogador bloqueará " + bloq + " De dano");
@@ -90,7 +90,7 @@ public class desafioJogSim02 : MonoBehaviour
 
                         print("Inimigo rolou: " + dado1 + " e " + dado2);
 
-                        if (dado1 % 2 == 0) // ATAQUE
+                        if (dado1 % 2 == 0)
                         {
                             dado2 = Random.Range(1, 7);
                             bloq = def + dado2;
@@ -102,7 +102,7 @@ public class desafioJogSim02 : MonoBehaviour
 
                             print("Inimigo atacou causando " + danoCpu + " de dano!");
                         }
-                        else // DEFESA
+                        else
                         {
                             bloqCpu = defCpu + dado2;
                             print("Inimigo bloqueará " + bloqCpu + " De dano");
