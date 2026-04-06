@@ -27,17 +27,15 @@ public class desafioJogSim02 : MonoBehaviour
 
     void Start()
     {
-        vidaCpu = Random.Range(0, pontosCpu);
-        pontos = pontos - vidaCpu;
-        atkCpu = Random.Range(0, pontosCpu);
-        pontos = pontos - atkCpu;
-        defCpu = Random.Range(0, pontosCpu);
+        vidaCpu = Random.Range(1, pontosCpu + 1);
+        pontosCpu = pontosCpu - vidaCpu;
+        atkCpu = Random.Range(1, pontosCpu + 1);
+        pontosCpu = pontosCpu - atkCpu;
+        defCpu = Random.Range(1, pontosCpu + 1);
     }
 
     void Update()
     {
-        while (vida > 0 && vidaCpu > 0)
-        {
             if (Input.anyKeyDown)
             {
                 if (vida <= 0 || atk <= 0 || def <= 0)
@@ -70,8 +68,10 @@ public class desafioJogSim02 : MonoBehaviour
                             dadoCpu2 = Random.Range(1, 7);
                             bloqCpu = defCpu + dadoCpu2;
                             dano = (atk + dado2) - bloqCpu;
-                            if (dano < 0) dano = 0;
-
+                        if (dano < 0)
+                        {
+                            dano = 0;
+                        }
                             vidaCpu -= dano;
                             bloq = 0;
 
@@ -83,7 +83,6 @@ public class desafioJogSim02 : MonoBehaviour
                             print("Jogador bloqueará " + bloq + " De dano");
                         }
 
-                        if (vidaCpu <= 0) break;
 
                         dadoCpu1 = Random.Range(1, 7);
                         dadoCpu2 = Random.Range(1, 7);
@@ -95,8 +94,10 @@ public class desafioJogSim02 : MonoBehaviour
                             dado2 = Random.Range(1, 7);
                             bloq = def + dado2;
                             danoCpu = (atkCpu + dadoCpu2) - bloq;
-                            if (danoCpu < 0) danoCpu = 0;
-
+                        if (danoCpu < 0)
+                        {
+                            danoCpu = 0;
+                        }
                             vida -= dano;
                             bloq = 0;
 
@@ -112,13 +113,11 @@ public class desafioJogSim02 : MonoBehaviour
                         print("----------------------------");
                     }
 
-                    if (vida > 0)
+                    if (vida > 0 && vidaCpu <= 0)
                         print("Você venceu!");
                     else
                         print("Você perdeu!");
                 }
-                }
             }
         }
     }
-
