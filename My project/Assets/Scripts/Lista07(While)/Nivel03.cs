@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Nivel03 : MonoBehaviour
 {
-    int n = 1;
+    int n = 0;
     int soma = 0;
     int a = 0;
     int b = 0;
@@ -19,14 +19,14 @@ public class Nivel03 : MonoBehaviour
 • Se o número for par, imprime "Par"
 • Se for ímpar, imprime "Ímpar"
          */
-        while(n < 100)
+        while(n <= 100)
         {
-            n++;
             soma += n;
+            n++;
         }
         print("O total é " + soma);
         print("Fim 01");
-        while(a < 100)
+        while(true)
         {
             a++;
             print(a);

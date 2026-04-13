@@ -3,7 +3,7 @@ using UnityEngine;
 public class Nivel01 : MonoBehaviour
 {
     [SerializeField]int numero = 0;
-    [SerializeField]int numero2 = 11;
+    [SerializeField]int numero2 = 10;
     [SerializeField] int numero3 = 0;
     void Start()
     {
@@ -15,21 +15,21 @@ Use while para diminuir a energia até chegar em 0, exibindo o valor.
          */
         while(numero < 10)
         {
-            numero++;
             print(numero);
+            numero++;
         }
         print("Fim 01.");
-        while(numero2 > 0)
+        while(numero2 >= 0)
         {
-            numero2--;
             print(numero2);
+            numero2--;
         }
         print("Fim 02");
         int energia = 5;
         while(energia > 0)
         {
-            energia--;
             print(energia + " De energia");
+            energia--;
         }
         print("Fim 03");
         print("Numeros Pares");
@@ -42,5 +42,4 @@ Use while para diminuir a energia até chegar em 0, exibindo o valor.
             numero3++;
         }
     }
-
 }
